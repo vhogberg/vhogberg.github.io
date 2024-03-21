@@ -27,7 +27,7 @@ p {
 .instagram-button {
     margin-top: 10px;
     display: inline-block; /* Make both buttons appear next to each other */
-    margin-right: 8px; /* Adjust margin if needed */
+    margin-right: 7px; /* Adjust margin */
 }
 .linkedin-button a,
 .instagram-button a {
@@ -54,7 +54,7 @@ p {
     color: #fff; /* White button text color */
 }
 .linkedin-button a:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0055af; /* Darker blue on hover */
 }
 .instagram-button a {
     background-color: #c961c3; /* Blue button background color */
