@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f5f5f5; /* Light grey background */
-    color: #333; /* Dark text color */
+    color: #666; /* Grey text color */
 }
 .container {
     max-width: 800px;
@@ -23,18 +23,44 @@ p {
     text-align: center;
     line-height: 1.6;
 }
-.linkedin-button {
-    margin-top: 30px;
+.linkedin-button,
+.instagram-button {
+    margin-top: 10px;
+    display: inline-block; /* Make both buttons appear next to each other */
+    margin-right: 8px; /* Adjust margin if needed */
 }
-.linkedin-button a {
+.linkedin-button a,
+.instagram-button a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff; /* Blue button background color */
-    color: #fff; /* White button text color */
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
+.linkedin-button i,
+.instagram-button i {
+  margin-left: 5px; /* Add space between text and icon */
+}
+.linkedin-button img,
+.instagram-button img {
+    width: 30px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align vertically with text */
+    margin-left: 5px; /* Add space between text and logo */
+}
+
+.linkedin-button a {
+    background-color: #007bff; /* Blue button background color */
+    color: #fff; /* White button text color */
+}
 .linkedin-button a:hover {
     background-color: #0056b3; /* Darker blue on hover */
 }
+.instagram-button a {
+    background-color: #c961c3; /* Blue button background color */
+    color: #fff; /* White button text color */
+}
+.instagram-button a:hover {
+    background-color: #63106e; /* Darker blue on hover */
+}
+
